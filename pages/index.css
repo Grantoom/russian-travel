@@ -1,0 +1,68 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../root.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-switch/header__lang-switch.css);
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lead {
+    max-width: 984px;
+    max-height: 1005px;
+    margin: 56px auto 92px;
+}
+
+.section-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    max-width: 720px;
+    max-height: 200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.section-subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    max-width: 640px;
+    max-height: 72px;
+    margin: 32px auto 0;
+    padding: 0;
+}
+
+.image {
+    width: 948px;
+    height: 615px;
+    margin-top: 64px;
+}
+
+.caption {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 8px;
+}
