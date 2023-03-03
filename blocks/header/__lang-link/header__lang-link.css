@@ -4,8 +4,16 @@
     border: none;
     background: none;
     color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    width: 30px;
+    height: 28px;
 }
 
 .header__lang-link:hover {
-
+    background-size: 100% 2px;
 }
