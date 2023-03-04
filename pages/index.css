@@ -352,3 +352,17 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 756px) {
+    .header {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .intro {
+        width: 300px;
+        height: 300px;
+    }
+}
