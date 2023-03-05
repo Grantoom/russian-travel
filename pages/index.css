@@ -353,16 +353,12 @@
     padding: 0;
 }
 
-@media screen and (max-width: 756px) {
-    .header {
-        width: 300px;
-        height: 300px;
-    }
-}
 
-@media screen and (max-width: 756px) {
-    .intro {
-        width: 300px;
-        height: 300px;
-    }
+.footer__copyrights {
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    
 }
