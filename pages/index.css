@@ -530,7 +530,7 @@
     }
 }
 
-.__url-heading {
+.place__url-heading {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -542,7 +542,7 @@
     padding: 0;
 }
 
-.__link {
+.place__link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -558,7 +558,7 @@
     transition: background-size .3s;
 }
 
-.__link:hover {
+.place__link:hover {
     background-size: 100% 2px;
 }
 
@@ -789,6 +789,7 @@
     gap: 18px;
     margin: 0;
     padding: 0;
+    list-style-type: none;
     
 }
 
@@ -887,17 +888,4 @@
       max-width: 22px;
       height: 20px;
     }
-  }
-
-
-  @media screen and (max-width: 1279px) {
-
-  }
-
-  @media screen and (max-width: 1023px) {
-    
-  }
-
-  @media screen and (max-width: 767px) {
-    
   }
