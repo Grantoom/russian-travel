@@ -17,7 +17,7 @@
 
 .lead {
     max-width: 984px;
-    height: 1005px;
+    height: auto;
     margin: 56px 148px 92px;
 }
 
@@ -37,7 +37,6 @@
     .lead {
         margin: 48px 0 64px;
         max-width: 320px;
-        height: 406px;
     }
 }
 
@@ -59,13 +58,8 @@
     .section-title {
         max-width: 288px;
         height: 88px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 900;
         font-size: 40px;
         line-height: 44px;
-        text-align: center;
-        color: #FFFFFF;
     }
 }
 
@@ -88,13 +82,8 @@
 @media screen and (max-width: 767px) {
     .section-subtitle {
         margin: 16px auto 0;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 20px;
-        text-align: center;
-        color: #FFFFFF;
     }
 }
 
@@ -107,7 +96,6 @@
 @media screen and (max-width: 1279px) {
     .image {
         height: 580px;
-        width: 100%;
         margin-top: 56px;
     }
 }
@@ -115,7 +103,6 @@
 @media screen and (max-width: 1023px) {
     .image {
         height: 480px;
-        width: 100%;
         margin-top: 56px;
     }
 }
@@ -123,7 +110,6 @@
 @media screen and (max-width: 767px) {
     .image {
         height: 200px;
-        width: 100%;
         margin-top: 40px;
     }
 }
@@ -169,7 +155,6 @@
 @media screen and (max-width: 1279px) {
     .intro {
         margin: 0 286px 0 48px;
-        max-width: 690px;
         height: 429px;
     }
 }
@@ -214,12 +199,8 @@
     .intro__brief {
         max-width: 288px;
         height: 70px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 900;
         font-size: 32px;
         line-height: 35px;
-        color: #FFFFFF;
     }
 }
 
@@ -327,22 +308,18 @@
 
 .places {
     max-width: 984px;
-    min-height: 3404px;
     margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 1279px) {
     .places {
         max-width: 928px;
-        min-height: 3292px;
-        margin: 0 auto 92px;
     }
 }
 
 @media screen and (max-width: 1023px) {
   .places {
         max-width: 720px;
-        min-height: 2808px; 
         margin: 0 auto 90px;
     }
 }
@@ -350,7 +327,6 @@
 @media screen and (max-width: 767px) {
     .places {
         max-width: 320px;
-        min-height: 5177px; 
         margin: 0 auto 66px;
     }
 }
@@ -371,7 +347,6 @@
     .place {
         grid-template-columns: 440px 1fr;
         max-width: 928px;
-        height: 640px;
         gap: 48px 32px;
     }
 }
@@ -380,7 +355,6 @@
   .place {
         grid-template-columns: 340px 1fr;
         max-width: 720px;
-        height: 581px;
         margin-top: 73px;
         gap: 48px 28px;
     }
@@ -389,7 +363,6 @@
 @media screen and (max-width: 767px) {
     .place {
         max-width: 320px;
-        height: 1042px;
         margin-top: 50px;
         grid-template-columns: 1fr;
         grid-template-areas:
@@ -400,7 +373,6 @@
         gap: 32px;
     }
 }
-
 
 .place__title {
     grid-area: title;
@@ -419,26 +391,14 @@
 @media screen and (max-width: 1279px) {
     .place__title {
         max-width: 440px;
-        height: auto;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 72px;
-        line-height: 76px;
-        color: #FFFFFF;
     }
 }
 
 @media screen and (max-width: 1023px) {
   .place__title {
         max-width: 340px;
-        height: auto;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 900;
         font-size: 42px;
         line-height: 46px;
-        color: #FFFFFF;
     }
 }
 
@@ -446,10 +406,6 @@
     .place__title {
         grid-area: title;
         max-width: 288px;
-        height: auto;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 900;
         font-size: 32px;
         line-height: 35px;
         color: #FFFFFF;
@@ -496,7 +452,6 @@
     max-width: 456px;
     height: 100%;
 }
-
 
 @media screen and (max-width: 1023px) {
     .place__website {
@@ -583,17 +538,8 @@
 }
 
 
-@media screen and (max-width: 1279px) {
-    .place__paragraph {
-        max-width: ;
-        height: ;
-    }
-}
-
 @media screen and (max-width: 1023px) {
     .place__paragraph {
-        max-width: ;
-        height: ;
         font-size: 16px;
     }
 }
@@ -601,8 +547,6 @@
 @media screen and (max-width: 767px) {
     .place__paragraph {
         grid-area: text;
-        max-width: ;
-        height: ;
         font-size: 16px;
     }
 }
@@ -691,13 +635,8 @@
     max-width: 288px;
     margin: 33px 16px 0;
     height: 70px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
-    text-align: center;
-    color: #FFFFFF;
   }
 }
 
@@ -719,13 +658,8 @@
 @media screen and (max-width: 767px) {
   .cover__subtitle {
     margin-top: 16px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    text-align: center;
-    color: #FFFFFF;
     max-width: 288px;
     height: 48px;
   }
@@ -802,12 +736,8 @@
 
 @media screen and (max-width: 767px) {
   .footer__link {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
     line-height: 24px;
-    color: #FFFFFF;
   }
 }
 
@@ -841,7 +771,7 @@
     }
   }
 
-  @media screen and (max-width:1023px) {
+  @media screen and (max-width: 1023px) {
     .header {
       max-width: 720px;
       height: 52px;
@@ -849,8 +779,7 @@
     }
   }
 
-  @media screen and (max-width:767px) {
-    
+  @media screen and (max-width: 767px) {
     .header {
       display: flex;
       justify-content: space-around;
@@ -860,14 +789,18 @@
       max-width: 288px;
       height: 42px;
     }
+  }
 
+  @media screen and (max-width: 767px) {
     .header__logo {
-      height: 42px;
-      max-width: 142px;
-    }
+        height: 42px;
+        max-width: 142px;
+      }
+  }
 
+  @media screen and (max-width: 767px) {
     .header__lang-link {
-      max-width: 22px;
-      height: 20px;
-    }
+        max-width: 22px;
+        height: 20px;
+      }
   }

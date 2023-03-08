@@ -17,3 +17,10 @@
 .header__lang-link:hover {
     background-size: 100% 2px;
 }
+
+@media screen and (max-width: 767px) {
+    .header__lang-link {
+        max-width: 22px;
+        height: 20px;
+      }
+  }
