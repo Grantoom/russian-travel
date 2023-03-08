@@ -9,3 +9,14 @@
     margin-top: 16px;
   }
 
+  @media screen and (max-width: 767px) {
+    .header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0 auto;
+      margin-top: 16px;
+      max-width: 288px;
+      height: 42px;
+    }
+  }
