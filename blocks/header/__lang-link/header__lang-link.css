@@ -15,17 +15,16 @@
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
-    width: 30px;
-    height: 28px;
 }
 
 .header__lang-link:hover {
     background-size: 100% 2px;
+    opacity: .8;
 }
 
 @media screen and (max-width: 767px) {
     .header__lang-link {
-        max-width: 22px;
-        height: 20px;
-      }
+        font-size: 18px;
+        line-height: 20px;
+    }
   }

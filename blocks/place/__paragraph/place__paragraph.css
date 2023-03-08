@@ -16,10 +16,3 @@
         font-size: 16px;
     }
 }
-
-@media screen and (max-width: 767px) {
-    .place__paragraph {
-        grid-area: text;
-        font-size: 16px;
-    }
-}

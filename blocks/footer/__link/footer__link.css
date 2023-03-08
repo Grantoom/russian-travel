@@ -1,6 +1,6 @@
 .footer__link {
     list-style: none;
-    padding: 0;
+    padding: .1em 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -25,4 +25,6 @@
 
 .footer__link:hover {
     background-size: 100% 2px;
+    opacity: .8;
+    padding: .1em 0;
 }

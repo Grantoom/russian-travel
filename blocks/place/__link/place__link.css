@@ -16,4 +16,5 @@
 
 .place__link:hover {
     background-size: 100% 2px;
+    opacity: .8;
 }
