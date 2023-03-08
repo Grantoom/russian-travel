@@ -1,0 +1,22 @@
+.section-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    max-width: 720px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .section-title {
+        max-width: 288px;
+        height: 88px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
