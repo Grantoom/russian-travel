@@ -1,6 +1,6 @@
 .header__lang-switch {
   display: flex;
-  margin-bottom: 0;
+  align-items: flex-end;
   padding: 0;
   list-style: none;
   gap: 18px;

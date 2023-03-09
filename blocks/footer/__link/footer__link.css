@@ -1,7 +1,7 @@
 .footer__link {
     list-style: none;
-    padding: 0;
-    font-family: 'Inter';
+    padding: .1em 0;
+    font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -25,4 +25,6 @@
 
 .footer__link:hover {
     background-size: 100% 2px;
+    opacity: .8;
+    padding: .1em 0;
 }
