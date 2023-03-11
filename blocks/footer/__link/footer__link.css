@@ -9,7 +9,7 @@
     color: #fff;
 }
 
-.footer__link_active:hover {
+.footer__link:hover {
   opacity: .8;
 }
 
